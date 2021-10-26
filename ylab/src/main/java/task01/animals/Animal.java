@@ -3,6 +3,7 @@ package task01.animals;
 public abstract class Animal {
 
     public boolean isSleep;
+    public abstract void voice();
 
     public void sleep() {
         isSleep = true;
@@ -13,8 +14,12 @@ public abstract class Animal {
         if (isSleep){
             isSleep = false;
         }
-        System.out.println("Eating");
+        System.out.println("Ем");
     }
 
-    public abstract void speak();
+    public void speak() {
+        if (!isSleep){
+            voice();
+        }
+    };
 }

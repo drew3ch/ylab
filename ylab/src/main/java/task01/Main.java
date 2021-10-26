@@ -11,15 +11,18 @@ public class Main {
         tom.eat();
         tom.speak();
         tom.sleep();
+        tom.speak();
 
         Dog rex = new Dog();
         rex.eat();
         rex.speak();
         rex.sleep();
+        rex.speak();
 
         Fish nemo = new Fish();
         nemo.eat();
         nemo.speak();
         nemo.sleep();
+        nemo.speak();
     }
 }

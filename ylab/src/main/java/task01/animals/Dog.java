@@ -15,9 +15,7 @@ public class Dog extends Animal {
     }
 
     @Override
-    public void speak() {
-        if (!isSleep) {
-            System.out.println(sound);
-        }
+    public void voice() {
+        System.out.println(sound);
     }
 }
