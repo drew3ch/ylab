@@ -2,7 +2,7 @@ package task01.animals;
 
 public abstract class Animal {
 
-    public boolean isSleep;
+    private boolean isSleep;
     public abstract void voice();
 
     public void sleep() {
