@@ -1,8 +1,8 @@
 package task01.animals;
 
-public class dog extends animal {
+public class Fish extends Animal {
 
-    private String sound = "Гав";
+    private String sound = "Буль";
 
     @Override
     public void eat() {

@@ -1,6 +1,6 @@
 package task01.animals;
 
-public abstract class animal {
+public abstract class Animal {
 
     private boolean isSleeping = false;
     private boolean isEating = false;

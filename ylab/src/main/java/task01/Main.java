@@ -1,36 +1,31 @@
 package task01;
 
-import task01.animals.cat;
-import task01.animals.dog;
-import task01.animals.fish;
-import task01.animals.rabbit;
+import task01.animals.Cat;
+import task01.animals.Dog;
+import task01.animals.Fish;
+import task01.animals.Rabbit;
 
 public class Main {
 
     public static void main(String[] args) {
-        cat tom = new cat();
+        Cat tom = new Cat();
         tom.eat();
         tom.speak();
         tom.sleep();
-        tom.speak();
 
-        dog rex = new dog();
+        Dog rex = new Dog();
         rex.eat();
         rex.speak();
         rex.sleep();
-        rex.speak();
 
-        fish nemo = new fish();
+        Fish nemo = new Fish();
         nemo.eat();
         nemo.speak();
         nemo.sleep();
-        nemo.eat();
-        nemo.speak();
 
-        rabbit oswald = new rabbit();
+        Rabbit oswald = new Rabbit();
         oswald.eat();
         oswald.speak();
         oswald.sleep();
-        oswald.speak();
     }
 }

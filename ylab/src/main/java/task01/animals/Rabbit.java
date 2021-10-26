@@ -1,6 +1,6 @@
 package task01.animals;
 
-public class rabbit extends animal {
+public class Rabbit extends Animal {
 
     private String sound = "Хрум";
 
