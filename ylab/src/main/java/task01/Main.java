@@ -3,7 +3,6 @@ package task01;
 import task01.animals.Cat;
 import task01.animals.Dog;
 import task01.animals.Fish;
-import task01.animals.Rabbit;
 
 public class Main {
 
@@ -22,10 +21,5 @@ public class Main {
         nemo.eat();
         nemo.speak();
         nemo.sleep();
-
-        Rabbit oswald = new Rabbit();
-        oswald.eat();
-        oswald.speak();
-        oswald.sleep();
     }
 }

@@ -2,29 +2,19 @@ package task01.animals;
 
 public abstract class Animal {
 
-    private boolean isSleeping = false;
-    private boolean isEating = false;
-    private String sound = "";
+    public boolean isSleep;
 
-    public void eat(){
-        isEating = true;
-    }
-    abstract void speak();
-
-    public void sleep(){
-        isSleeping = true;
-        isEating = false;
+    public void sleep() {
+        isSleep = true;
+        System.out.println("..ZzzZzz..");
     }
 
-    protected void setEating(boolean eating){
-        isEating = eating;
+    public void eat() {
+        if (isSleep){
+            isSleep = false;
+        }
+        System.out.println("Eating");
     }
 
-    protected void setSleeping(boolean sleeping){
-        isSleeping = sleeping;
-    }
-
-    protected boolean getSleeping() {
-        return isSleeping;
-    }
+    public abstract void speak();
 }

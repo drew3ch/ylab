@@ -5,14 +5,18 @@ public class Fish extends Animal {
     private String sound = "Буль";
 
     @Override
+    public void sleep() {
+        super.sleep();
+    }
+
+    @Override
     public void eat() {
-        setEating(true);
-        setSleeping(false);
+        super.eat();
     }
 
     @Override
     public void speak() {
-        if (!getSleeping()){
+        if (!isSleep) {
             System.out.println(sound);
         }
     }
