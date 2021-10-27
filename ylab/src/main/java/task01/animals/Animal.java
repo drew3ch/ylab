@@ -3,7 +3,7 @@ package task01.animals;
 public abstract class Animal {
 
     private boolean isSleep;
-    public abstract String voice();
+    protected abstract String voice();
 
     public void sleep() {
         isSleep = true;
