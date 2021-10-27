@@ -2,8 +2,6 @@ package task01.animals;
 
 public class Dog extends Animal {
 
-    private String sound = "Гав";
-
     @Override
     public void sleep() {
         super.sleep();
@@ -15,7 +13,7 @@ public class Dog extends Animal {
     }
 
     @Override
-    public void voice() {
-        System.out.println(sound);
+    public String voice() {
+        return "Гав";
     }
 }

@@ -3,7 +3,7 @@ package task01.animals;
 public abstract class Animal {
 
     private boolean isSleep;
-    public abstract void voice();
+    public abstract String voice();
 
     public void sleep() {
         isSleep = true;
@@ -19,7 +19,7 @@ public abstract class Animal {
 
     public void speak() {
         if (!isSleep){
-            voice();
+            System.out.println(voice());
         }
     };
 }
